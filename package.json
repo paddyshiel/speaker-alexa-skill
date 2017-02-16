@@ -1,0 +1,15 @@
+{
+  "name": "sportsbet-alexa",
+  "version": "1.0.0",
+  "description": "Sportsbet Alexa",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "sportsbet",
+    "alexa"
+  ],
+  "author": "Feeds",
+  "license": "ISC"
+}
