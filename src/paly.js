@@ -10,7 +10,7 @@ export default class Paly {
     return say('Paly launched!');
   }
 
-  @Intent('Paly.HelloIntent')
+  @Intent('HelloIntent')
   hello({ name = 'world' }) {
     return say(`Hello ${name}`).card({ title: 'Paly', content: `Hello ${name}` });
   }

@@ -16,8 +16,8 @@ test('LaunchRequest', t => {
   });
 });
 
-test('Paly.HelloIntent intent', t => {
-  const event = Request.intent('Paly.HelloIntent', { name: 'world' }).build();
+test('HelloIntent intent', t => {
+  const event = Request.intent('HelloIntent', { name: 'world' }).build();
 
   return Skill(event).then(response => {
     t.deepEqual(response, {
