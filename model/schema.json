@@ -4,7 +4,7 @@
     { "intent": "AMAZON.HelpIntent" },
     { "intent": "AMAZON.StopIntent" },
     {
-      "intent": "hello",
+      "intent": "Paly.HelloIntent",
       "slots": [
         { "name": "name", "type": "LITERAL" }
       ]

@@ -10,14 +10,14 @@ test('LaunchRequest', t => {
       version: '1.0',
       response: {
         shouldEndSession: true,
-        outputSpeech: { type: 'PlainText', text: 'Sportsbet launched!' }
+        outputSpeech: { type: 'PlainText', text: 'Paly launched!' }
       }
     });
   });
 });
 
-test('Hello intent', t => {
-  const event = Request.intent('hello', { name: 'world' }).build();
+test('Paly.HelloIntent intent', t => {
+  const event = Request.intent('Paly.HelloIntent', { name: 'world' }).build();
 
   return Skill(event).then(response => {
     t.deepEqual(response, {
@@ -25,7 +25,7 @@ test('Hello intent', t => {
       response: {
         shouldEndSession: true,
         outputSpeech: { type: 'PlainText', text: 'Hello world' },
-        card: { type: 'Simple', title: 'Sportsbet', content: 'Hello world' }
+        card: { type: 'Simple', title: 'Paly', content: 'Hello world' }
       }
     });
   });

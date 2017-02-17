@@ -1,3 +1,3 @@
-import Sportsbet from './sportsbet';
+import Paly from './paly';
 
-module.exports = Sportsbet;
+module.exports = Paly;
