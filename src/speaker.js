@@ -3,16 +3,16 @@ import { say, ask } from 'alexa-response';
 import ssml from 'alexa-ssml-jsx';
 
 @Skill
-export default class Paly {
+export default class Speaker {
 
   @Launch
   launch() {
-    return say('Paly launched!');
+    return say('Speaker launched!');
   }
 
   @Intent('HelloIntent')
   hello({ name = 'world' }) {
-    return say(`Hello ${name}`).card({ title: 'Paly', content: `Hello ${name}` });
+    return say(`Hello ${name}`).card({ title: 'Speaker', content: `Hello ${name}` });
   }
 
   @Intent('AMAZON.HelpIntent')

@@ -1,3 +1,3 @@
-import Paly from './paly';
+import Speaker from './speaker';
 
-module.exports = Paly;
+module.exports = Speaker;

@@ -10,7 +10,7 @@ test('LaunchRequest', t => {
       version: '1.0',
       response: {
         shouldEndSession: true,
-        outputSpeech: { type: 'PlainText', text: 'Paly launched!' }
+        outputSpeech: { type: 'PlainText', text: 'Speaker launched!' }
       }
     });
   });
@@ -25,7 +25,7 @@ test('HelloIntent intent', t => {
       response: {
         shouldEndSession: true,
         outputSpeech: { type: 'PlainText', text: 'Hello world' },
-        card: { type: 'Simple', title: 'Paly', content: 'Hello world' }
+        card: { type: 'Simple', title: 'Speaker', content: 'Hello world' }
       }
     });
   });
